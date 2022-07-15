@@ -24,7 +24,7 @@ const quizDatabase = [
     correct: "a",
 },
 {
-    question: "Katerina Sakellaropoulou was elected the first woman President of------------",
+    question: "Katerina Sakellaropoulou was elected the first woman President of",
     a: "Greece",
     b: "Spain",
     c: "Finland",
