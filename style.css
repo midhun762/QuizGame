@@ -51,11 +51,11 @@ body{
 .quiz-container{
 	background-image: linear-gradient(to right, #6a2cb6 0%, #263c7e  51%, #571d9e  100%);
   border-radius: 5rem;
-  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  box-shadow: 0 0 0.625rem 0.125rem rgba(100, 100, 100, 0.1);
   width: 80vw;
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
-   box-shadow: 0 0 10px #eee;
+   box-shadow: 0 0 0.625rem #eee;
 }
 .quiz-header{
   padding: 1rem;
@@ -114,7 +114,7 @@ font-size: 2rem;
 	transition: 0.5s;
   
 	color: white;            
-	box-shadow: 0 0 20px #eee;
+	box-shadow: 0 0 1.25rem #eee;
 
   }
 
@@ -138,8 +138,14 @@ font-size: 2rem;
     color:red;
   }
   input[type=radio] {
-    border: 0px;
+    border: 0rem;
     width: 2rem;
     height: 1rem;
 }
-  
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+ body {
+ background: red;
+ }
+}
