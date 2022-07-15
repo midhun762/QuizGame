@@ -49,6 +49,7 @@ body{
 }
 
 .quiz-container{
+  margin-bottom: 35px;
 	background-image: linear-gradient(to right, #6a2cb6 0%, #263c7e  51%, #571d9e  100%);
   border-radius: 5rem;
   box-shadow: 0 0 0.625rem 0.125rem rgba(100, 100, 100, 0.1);
@@ -58,7 +59,7 @@ body{
    box-shadow: 0 0 0.625rem #eee;
 }
 .quiz-header{
-  padding: .75rem;
+  padding: 1rem;
   color: white;
   font-weight: bold;
 }
@@ -80,6 +81,7 @@ h2{
 	cursor: pointer;
 }
 button{
+  
 	background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
   color: #fff;
   border: none;
@@ -141,11 +143,4 @@ font-size: 2rem;
     border: 0rem;
     width: 2rem;
     height: 1rem;
-}
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
- body {
- background: red;
- }
 }
